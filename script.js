@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/users';
+const API_URL = 'https://quran-ojzc.onrender.com/users';
 
 // Fetch users from server and display in the table
 async function fetchUsers() {
