@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+h1,h4{
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 30px; /* Space between each image-paragraph container */
+    justify-content: center; /* Center the content in the container */
+    align-items: center;
+}
+
+.image-item {
+    background-color: #c54e4e;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 90%; /* Fixed width for each image-item */
+    text-align: left;
+}
+.image-item img {
+    width: 80%;
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin: auto 10%;
+}
+.image-item .img1 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin: auto auto;
+}
+
+.image-item p {
+    margin: 10px 0 0; /* Space between image and paragraph */
+    font-size: 18px;
+    color: #333;
+}
+
+h2 {
+    text-align: left;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+table, th, td {
+    border: 1px solid #1b1919;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
