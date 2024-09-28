@@ -1,4 +1,4 @@
-const API_URL = 'https://quran-ojzc.onrender.com/users';
+const API_URL = 'https://simplistic-chisel-ceiling.glitch.me/users';
 
 // Fetch users from server and display in the table
 async function fetchUsers() {
